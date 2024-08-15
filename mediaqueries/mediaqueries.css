@@ -24,7 +24,10 @@
 
 }
 
-@media(max-width:767px) {
+@media(max-width:767px) { 
+    .home .slide2 {
+        background: url(../img/gallery-lightbox/4cama\ elastica.jpg);
+    }
     
     .header img {
         width: 125px;
@@ -201,11 +204,12 @@
         width: 90%;
         height: 250px;
         border-radius: 10px;
+        margin: 0 auto;
     } 
 
     .slide-index {
         /* background-color: black; */
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     } 
 
@@ -247,5 +251,13 @@
      
 .contenido-servicios-orden-index p {
     font-size: 14px;
+} 
+
+
+.splide__slide img {
+    width: 70%;
+    height: 250px;
+    border-radius: 10px;
+    margin: 0 auto;
 } 
 }

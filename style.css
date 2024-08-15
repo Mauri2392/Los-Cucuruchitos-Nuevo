@@ -160,7 +160,7 @@ section{
     align-items: center;
     justify-content: center;
     z-index: -1; 
-}
+} 
 
 .home .slide .content{
     width: 80rem;
@@ -977,7 +977,7 @@ footer p {
      font-weight: 100;
      line-height: 1; 
      font-weight: 500;
-     color: var(--black); 
+     color:#000; 
  } 
 
 .contacto-section {
